@@ -10,7 +10,7 @@ function buildPublicId(originalname) {
 }
 
 function getMimeType(file) {
-	if (file.mimetype && file.mimetype !== 'appliction/octet-stream') {
+	if (file.mimetype && file.mimetype !== 'application/octet-stream') {
 		return file.mimetype;
 	}
 

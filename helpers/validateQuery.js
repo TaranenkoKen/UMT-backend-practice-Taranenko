@@ -16,7 +16,7 @@ export function validateQuery(schema) {
 			);
 		}
 
-		req.validateQuery = value;
+		req.validatedQuery = value;
 		return next();
 	};
 }

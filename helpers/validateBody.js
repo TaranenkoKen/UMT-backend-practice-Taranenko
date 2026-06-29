@@ -16,7 +16,7 @@ export function validateBody(schema) {
 			);
 		}
 
-		req.validateBody = value;
+		req.validatedBody = value;
 
 		return next();
 	};

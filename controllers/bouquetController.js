@@ -3,10 +3,13 @@ import { asyncHandler } from '../helpers/asyncHandler.js';
 import { apiMessages } from '../constants/messages.js';
 import * as bouquetModel from '../models/bouquetModel.js';
 import { HttpError } from '../helpers/error.js';
-import { deleteImageFromCloudinary, uploadImageToCloudinary } from '../helpers/cloudinaryStorage.js';
+import {
+	deleteImageFromCloudinary,
+	uploadImageToCloudinary,
+} from '../helpers/cloudinaryStorage.js';
 
 export const getBouquetList = asyncHandler(async (req, res) => {
-	const { page, 'per-page': perPage } = req.validateQuery;
+	const { page, 'per-page': perPage } = req.validatedQuery;
 
 	const result = await bouquetModel.findPagination({
 		page,
@@ -18,7 +21,7 @@ export const getBouquetList = asyncHandler(async (req, res) => {
 
 export const getBouquetById = asyncHandler(async (req, res) => {
 	const { id } = req.validatedParams;
-	const bouquet = await bouquetModelModel.findById(id);
+	const bouquet = await bouquetModel.findById(id);
 
 	if (!bouquet) {
 		throw new HttpError(HTTP_STATUS.NOT_FOUND, apiMessages.bouquetNotFound);

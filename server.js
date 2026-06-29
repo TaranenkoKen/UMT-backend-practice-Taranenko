@@ -15,5 +15,5 @@ await prisma.$connect();
 
 app.listen(config.port, () => {
 	console.log(`Server is running on port ${config.port}`);
-	console.log(`Swagger Ui: http:/localhost:${config.port}/api-docs`);
+	console.log(`Swagger Ui: http://localhost:${config.port}/api-docs`);
 });

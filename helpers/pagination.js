@@ -24,7 +24,7 @@ export function buildPaginatedResponse(
 	const data =
 		totalItems !== null
 			? items
-			: items.slice(bounds.skip, bounds.slice + bounds.take);
+			: items.slice(bounds.skip, bounds.skip + bounds.take);
 
 	return {
 		data: data.map((item) => ({

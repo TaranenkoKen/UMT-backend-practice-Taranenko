@@ -17,7 +17,7 @@ export async function findById(id) {
 		where: { id },
 	});
 
-	return feedback ? feedback : null;
+	return feedback ? formatFeedback(feedback) : null;
 }
 
 export async function create(data) {

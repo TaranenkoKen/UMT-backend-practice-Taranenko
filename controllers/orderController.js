@@ -21,7 +21,7 @@ export const getOrderById = asyncHandler(async (req, res) => {
 });
 
 export const createOrder = asyncHandler(async (req, res) => {
-	const order = await orderModel.create(req.validateBody);
+	const order = await orderModel.create(req.validatedBody);
 
 	res.status(HTTP_STATUS.CREATED).json({
 		message: apiMessages.orderCreated,

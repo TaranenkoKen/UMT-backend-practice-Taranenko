@@ -1,6 +1,5 @@
 export const bouquets = [
 	{
-		id: 1,
 		title: 'Peach Meadow',
 		price: '55',
 		img: 'images/peach-meadow@1x.png',
@@ -8,7 +7,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 2,
 		title: 'Blush Romance',
 		price: '34',
 		img: 'images/blush-romance@1x.png',
@@ -16,7 +14,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 3,
 		title: 'Pastel Garden',
 		price: '40',
 		img: 'images/pastel-garden@1x.png',
@@ -24,7 +21,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 4,
 		title: 'Tulip Charm',
 		price: '61',
 		img: 'images/tulip-charm@1x.png',
@@ -32,7 +28,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 5,
 		title: 'Berry Bloom',
 		price: '32',
 		img: 'images/berry-bloom@1x.png',
@@ -40,7 +35,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 6,
 		title: 'Sweet Whisper',
 		price: '40',
 		img: 'images/sweet-whisper@1x.png',
@@ -48,7 +42,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 7,
 		title: 'Field Joy',
 		price: '49',
 		img: 'images/field-joy@1x.png',
@@ -56,7 +49,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 8,
 		title: 'Soft Bloom',
 		price: '37',
 		img: 'images/soft-bloom@1x.png',
@@ -64,7 +56,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 9,
 		title: 'Midnight Garden',
 		price: '98',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120786.png',
@@ -72,7 +63,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 10,
 		title: 'Sunlit Italian Meadow',
 		price: '62',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120787.png',
@@ -80,7 +70,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 11,
 		title: 'Velvet Twilight',
 		price: '98',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120788.png',
@@ -88,7 +77,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 12,
 		title: 'Cobalt Currentse',
 		price: '89',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120790.png',
@@ -96,7 +84,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 13,
 		title: 'Luminous Chartreuse',
 		price: '102',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120792.png',
@@ -104,7 +91,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 14,
 		title: 'Woodland Whimsy',
 		price: '78',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120793.png',
@@ -112,7 +98,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 15,
 		title: 'Enchanted Lunar Landscape',
 		price: '98',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120794.png',
@@ -120,7 +105,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 16,
 		title: 'Monochrome Minimalism',
 		price: '92',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120795.png',
@@ -128,7 +112,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 17,
 		title: 'Japandi Serenity',
 		price: '88',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120796.png',
@@ -136,7 +119,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 18,
 		title: 'Futurist Chrome',
 		price: '110',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120797.png',
@@ -144,7 +126,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 19,
 		title: 'Golden Hour',
 		price: '79',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120798.png',
@@ -152,7 +133,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 20,
 		title: 'Quiet Nostalgia',
 		price: '78',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120799.png',
@@ -160,7 +140,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 21,
 		title: 'Sun-Drenched Desert',
 		price: '89',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120800.png',
@@ -168,7 +147,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 22,
 		title: 'Chinoiserie Dreams',
 		price: '98',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120801.png',
@@ -176,7 +154,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 23,
 		title: 'Retro Mod Bouquet',
 		price: '88',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120802.png',
@@ -184,7 +161,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 24,
 		title: 'Firelight Embrace',
 		price: '102',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120803.png',
@@ -192,7 +168,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 25,
 		title: 'Renaissance Tapestry',
 		price: '110',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120804.png',
@@ -200,7 +175,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 26,
 		title: 'Winter Solstice',
 		price: '92',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120805.png',
@@ -208,7 +182,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 27,
 		title: 'Industrial Chic',
 		price: '92',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120806.png',
@@ -216,7 +189,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 28,
 		title: 'Unbridled Romance',
 		price: '98',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120807.png',
@@ -224,7 +196,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 29,
 		title: 'Rustic Farmhouse',
 		price: '58',
 		img: 'images/field-joy@1x.png',
@@ -232,7 +203,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 30,
 		title: 'Stained Glass Spectrum',
 		price: '110',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120809.png',
@@ -240,7 +210,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 31,
 		title: "Painter's Muse",
 		price: '92',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120810.png',
@@ -248,7 +217,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 32,
 		title: 'Moonlit Reverie',
 		price: '92',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120811.png',
@@ -256,7 +224,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 33,
 		title: "Midsummer Night's Whimsy",
 		price: '98',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120812.png',
@@ -264,7 +231,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 34,
 		title: 'Enchanted Forest Floor',
 		price: '78',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120813.png',
@@ -272,7 +238,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 35,
 		title: 'Espresso Elegance',
 		price: '92',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120814.png',
@@ -280,7 +245,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 36,
 		title: 'Blueberry Sunrise',
 		price: '88',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120815.png',
@@ -288,7 +252,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 37,
 		title: 'Driftwood Daydream',
 		price: '89',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120816.png',
@@ -296,7 +259,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 38,
 		title: 'Frida Kahlo Riot',
 		price: '110',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120817.png',
@@ -304,7 +266,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 39,
 		title: 'Granite & Emerald',
 		price: '92',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120818.png',
@@ -312,7 +273,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 40,
 		title: 'Spring Awakening',
 		price: '78',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120819.png',
@@ -320,7 +280,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 41,
 		title: 'Cubist Abstraction',
 		price: '105',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120820.png',
@@ -328,7 +287,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 42,
 		title: 'Dappled Sunlight',
 		price: '68',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120821.png',
@@ -336,7 +294,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 43,
 		title: 'Enchanted Library',
 		price: '89',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120822.png',
@@ -344,7 +301,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 44,
 		title: 'Surrealist Dream',
 		price: '105',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120823.png',
@@ -352,7 +308,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 45,
 		title: "Magpie's Hoard",
 		price: '110',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120824.png',
@@ -360,7 +315,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 46,
 		title: 'Aztec Sun',
 		price: '82',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120825.png',
@@ -368,7 +322,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 47,
 		title: 'Orchard Bounty',
 		price: '82',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120826.png',
@@ -376,7 +329,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 48,
 		title: 'Pure Tranquility',
 		price: '88',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120827.png',
@@ -384,7 +336,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 49,
 		title: 'Desert Bloom',
 		price: '78',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120828.png',
@@ -392,7 +343,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 50,
 		title: 'Garden Graffiti',
 		price: '89',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120829.png',
@@ -400,7 +350,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 51,
 		title: 'Noble Simplicity',
 		price: '70',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120830.png',
@@ -408,7 +357,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 52,
 		title: 'Tiger Lily Fever',
 		price: '89',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120831.png',
@@ -416,7 +364,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 53,
 		title: 'Opalescent Mist',
 		price: '98',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120832.png',
@@ -424,7 +371,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 54,
 		title: 'Winter Orchard',
 		price: '79',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120833.png',
@@ -432,7 +378,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 55,
 		title: 'Spring in Kyoto',
 		price: '98',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120834.png',
@@ -440,7 +385,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 56,
 		title: 'Jungle Fever',
 		price: '92',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120835.png',
@@ -448,7 +392,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 57,
 		title: 'Antique Gold Nouveau',
 		price: '105',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120836.png',
@@ -456,7 +399,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 58,
 		title: 'Dreamy Lullaby',
 		price: '78',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120837.png',
@@ -464,7 +406,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 59,
 		title: 'Glacial Stillness',
 		price: '92',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120838.png',
@@ -472,7 +413,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 60,
 		title: 'Desert Mirage',
 		price: '88',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120839.png',
@@ -480,7 +420,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 61,
 		title: 'Minimal Strokes',
 		price: '70',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120840.png',
@@ -488,7 +427,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 62,
 		title: 'Blushing Dawn',
 		price: '72',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120841.png',
@@ -496,7 +434,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 63,
 		title: 'Baroque Fantasy',
 		price: '115',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120842.png',
@@ -504,7 +441,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 64,
 		title: 'Serene Zen',
 		price: '92',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120843.png',
@@ -512,7 +448,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 65,
 		title: 'Ethereal Fog',
 		price: '92',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120844.png',
@@ -520,7 +455,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 66,
 		title: 'Art Deco Geometry',
 		price: '115',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120845.png',
@@ -528,7 +462,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 67,
 		title: 'Nostalgic Sepia',
 		price: '72',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120846.png',
@@ -536,7 +469,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 68,
 		title: 'Peach Sorbet',
 		price: '72',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120847.png',
@@ -544,7 +476,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 69,
 		title: 'Crimson Passion',
 		price: '98',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120848.png',
@@ -552,7 +483,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 70,
 		title: 'Bohemian Rhapsody',
 		price: '78',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120849.png',
@@ -560,7 +490,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 71,
 		title: 'Frosted Evergreen',
 		price: '88',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120850.png',
@@ -568,7 +497,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 72,
 		title: 'Harlequin Carnival',
 		price: '98',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120851.png',
@@ -576,7 +504,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 73,
 		title: 'Earthy Neutrals',
 		price: '72',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120852.png',
@@ -584,7 +511,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 74,
 		title: 'Dragonfly Wings',
 		price: '92',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120853.png',
@@ -592,7 +518,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 75,
 		title: 'Electric Citrus',
 		price: '78',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120854.png',
@@ -600,7 +525,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 76,
 		title: 'Mist-Kissed Morning',
 		price: '78',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120855.png',
@@ -608,7 +532,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 77,
 		title: 'Tropical Monsoon',
 		price: '98',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120856.png',
@@ -616,7 +539,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 78,
 		title: 'Gothic Tapestry',
 		price: '110',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120857.png',
@@ -624,7 +546,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 79,
 		title: 'Sorbet Swirl',
 		price: '88',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120858.png',
@@ -632,7 +553,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 80,
 		title: 'Rainforest Canopy',
 		price: '110',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120859.png',
@@ -640,7 +560,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 81,
 		title: 'Lavender Haze',
 		price: '88',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120860.png',
@@ -648,7 +567,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 82,
 		title: 'Blizzard Garden',
 		price: '88',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120861.png',
@@ -656,7 +574,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 83,
 		title: 'Cosmic Nebula',
 		price: '105',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120862.png',
@@ -664,7 +581,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 84,
 		title: 'Misty Mountain Glen',
 		price: '88',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120863.png',
@@ -672,7 +588,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 85,
 		title: 'Featherlight Touch',
 		price: '58',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120864.png',
@@ -680,7 +595,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 86,
 		title: 'Caramel Dusk',
 		price: '89',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120865.png',
@@ -688,7 +602,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 87,
 		title: 'Zesty Mojito',
 		price: '68',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120866.png',
@@ -696,7 +609,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 88,
 		title: 'Modern Origami',
 		price: '105',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120867.png',
@@ -704,7 +616,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 89,
 		title: 'Vintage Botanica',
 		price: '92',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120868.png',
@@ -712,7 +623,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 90,
 		title: 'Violet Storm',
 		price: '92',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120869.png',
@@ -720,7 +630,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 91,
 		title: 'Reclaimed Romance',
 		price: '92',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120870.png',
@@ -728,7 +637,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 92,
 		title: 'Butterfly Migration',
 		price: '72',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120871.png',
@@ -736,7 +644,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 93,
 		title: 'Tidal Pool Wonder',
 		price: '92',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120872.png',
@@ -744,7 +651,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 94,
 		title: 'Lunar Eclipse',
 		price: '98',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120873.png',
@@ -752,7 +658,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 95,
 		title: 'Victorian Secret Garden',
 		price: '92',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120874.png',
@@ -760,7 +665,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 96,
 		title: 'Starry Night',
 		price: '92',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120875.png',
@@ -768,7 +672,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 97,
 		title: 'Monochrome Crimson',
 		price: '92',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120876.png',
@@ -776,7 +679,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 98,
 		title: 'Coral Reef',
 		price: '98',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120877.png',
@@ -784,7 +686,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 99,
 		title: 'Fire & Ice',
 		price: '89',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120878.png',
@@ -792,7 +693,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 100,
 		title: 'Pagoda Tranquility',
 		price: '88',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120879.png',
@@ -800,7 +700,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 101,
 		title: 'Emerald City',
 		price: '92',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120880.png',
@@ -808,7 +707,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 102,
 		title: 'Shabby Chic Nostalgia',
 		price: '72',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120881.png',
@@ -816,7 +714,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 103,
 		title: 'Enchanted Dusk',
 		price: '89',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120882.png',
@@ -824,7 +721,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 104,
 		title: 'Nordic Frost',
 		price: '92',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120883.png',
@@ -832,7 +728,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 105,
 		title: 'Pocket Prairie',
 		price: '58',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120884.png',
@@ -840,7 +735,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 106,
 		title: 'Celestial Halo',
 		price: '89',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120885.png',
@@ -848,7 +742,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 107,
 		title: 'Wuthering Winds',
 		price: '72',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120886.png',
@@ -856,7 +749,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 108,
 		title: 'Espresso Noir',
 		price: '92',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120887.png',
@@ -864,7 +756,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 109,
 		title: 'Flamingo Parade',
 		price: '92',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120888.png',
@@ -872,7 +763,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 110,
 		title: 'Café au Lait',
 		price: '89',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120889.png',
@@ -880,7 +770,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 111,
 		title: 'Artisan Tapestry',
 		price: '98',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120890.png',
@@ -888,7 +777,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 112,
 		title: 'Berry Orchard',
 		price: '98',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120891.png',
@@ -896,7 +784,6 @@ export const bouquets = [
 		category: 'top',
 	},
 	{
-		id: 113,
 		title: 'Chromatic Chaos',
 		price: '92',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120892.png',
@@ -904,7 +791,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 114,
 		title: 'Hushed Morning Dew',
 		price: '68',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120893.png',
@@ -912,7 +798,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 115,
 		title: 'Forest Nymph',
 		price: '88',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120894.png',
@@ -920,7 +805,6 @@ export const bouquets = [
 		category: 'standart',
 	},
 	{
-		id: 116,
 		title: 'Scented Memoir',
 		price: '73',
 		img: 'https://ftp.goit.study/img/flowers/68498236a1003120895.png',
