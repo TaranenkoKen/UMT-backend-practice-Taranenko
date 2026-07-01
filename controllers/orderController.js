@@ -34,6 +34,8 @@ export const getOrderById = asyncHandler(async (req, res) => {
 });
 
 export const createOrder = asyncHandler(async (req, res) => {
+	await assertProductExists(req.validatedBody.productId);
+
 	const order = await orderModel.create(req.validatedBody);
 
 	res.status(HTTP_STATUS.CREATED).json({
@@ -50,6 +52,8 @@ export const updateOrder = asyncHandler(async (req, res) => {
 	if (!existing) {
 		throw new HttpError(HTTP_STATUS.NOT_FOUND, apiMessages.orderNotFound);
 	}
+
+	await assertProductExists(req.validatedBody.productId);
 
 	const order = await orderModel.update(id, req.validatedBody);
 
