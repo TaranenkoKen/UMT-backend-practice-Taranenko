@@ -196,7 +196,8 @@
 				},
 				"responses": {
 					"201": { "description": "Order created" },
-					"400": { "description": "Validation error" }
+					"400": { "description": "Validation error" },
+					"404": { "description": "Referenced product not found" }
 				}
 			}
 		},
@@ -435,7 +436,7 @@
 					},
 					"productId": {
 						"type": ["integer", "null"],
-						"example": 1,
+						"example": 5,
 						"description": "Product id when ordering from catalogue; null for general orders"
 					},
 					"quantity": {
