@@ -11,6 +11,7 @@ export const createOrderSchema = Joi.object({
 		.integer()
 		.positive()
 		.allow(null)
+		.empty('')
 		.default(null)
 		.label('Product'),
 	quantity: Joi.number().integer().min(1).default(1).label('Quantity'),
@@ -21,7 +22,12 @@ export const updateOrderSchema = Joi.object({
 	phone: Joi.string().trim().min(10).max(30).label('Phone'),
 	address: Joi.string().trim().min(5).max(200).label('Address'),
 	message: Joi.string().trim().max(500).allow('').label('Message'),
-	productId: Joi.number().integer().positive().allow(null).label('Product'),
+	productId: Joi.number()
+		.integer()
+		.positive()
+		.allow(null)
+		.empty('')
+		.label('Product'),
 	quantity: Joi.number().integer().min(1).label('Quantity'),
 })
 	.min(1)

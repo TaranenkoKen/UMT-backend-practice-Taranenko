@@ -3,6 +3,19 @@ import { apiMessages } from '../constants/messages.js';
 import { asyncHandler } from '../helpers/asyncHandler.js';
 import { HttpError } from '../helpers/error.js';
 import * as orderModel from '../models/orderModel.js';
+import * as bouquetModel from '../models/bouquetModel.js';
+
+async function assertProductExists(productId) {
+	if (productId === null || productId === undefined) {
+		return;
+	}
+
+	const product = await bouquetModel.findById(productId);
+
+	if (!product) {
+		throw new HttpError(HTTP_STATUS.NOT_FOUND, apiMessages.bouquetNotFound);
+	}
+}
 
 export const getOrderList = asyncHandler(async (_req, res) => {
 	const orders = await orderModel.findAll();
